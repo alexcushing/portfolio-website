@@ -1,0 +1,14 @@
+.plPage {
+  max-width: 1080px;
+  /* background: hsl(0, 0%, 95%); */
+  width: calc(100% - 48px);
+  height: calc(100% - 48px);
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.plPage--isFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

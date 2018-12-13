@@ -1,0 +1,17 @@
+.plTitle {
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #626161;
+}
+
+.plTitle--subtitle {
+  font-size: 21px;
+  text-decoration: none;
+  color: #626161;
+}
+
+.plTitle--small-subtitle {
+  font-size: 16px;
+  color: #626161;
+}

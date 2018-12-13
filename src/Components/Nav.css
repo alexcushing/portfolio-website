@@ -1,0 +1,27 @@
+.plNav {
+  display: inline-block;
+  width: 480px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.plNav-link {
+  text-decoration: none;
+  color: #626161;
+  padding: 10px 20px;
+  display:
+}
+
+.plNav-link--active {
+  font-weight: 800;
+}
+
+.plNav-container {
+  background: rgb(243, 247, 249);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}

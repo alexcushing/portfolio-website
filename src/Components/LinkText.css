@@ -1,0 +1,13 @@
+.plLinkText {
+  text-decoration: none;
+  color: #7f187f;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.plLinkText--title {
+  text-decoration: none;
+  color: #7f187f;
+  font-size: 32px;
+  font-weight: 600;
+}
