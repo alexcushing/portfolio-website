@@ -23,7 +23,10 @@ body {
 }
 
 .App-links {
-  position: absolute;
-  bottom: 0;
+  flex: 1;
+  align-items: flex-end;
+  width: 100%;
   display: flex;
+  padding: 32px 0;
+  justify-content: center;
 }

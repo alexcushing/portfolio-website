@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Page>
+        <Page isFlex>
           <Title text="Hey, my name is Alex Cushing." />
           <div style={{ display: "flex" }}>
             <Title
@@ -23,7 +23,7 @@ class App extends Component {
               isSubtitle
             />
           </div>
-          <Center inline right>
+          <Center>
             <Center inline row={false}>
               <img
                 alt=""
@@ -76,7 +76,7 @@ class App extends Component {
               <Title isSmallSubtitle text='GitHub' to='' />
             </LinkText>
             <LinkText
-              margin='0 32px 0 0'
+              margin='0 0 0 32px'
               to="https://linkedin.com/in/alexandercushing"
             >
               <img
