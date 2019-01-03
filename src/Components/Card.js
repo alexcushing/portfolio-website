@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 import './Card.css';
 
 const Card = props => (
-  <div className="plCard">
+  <div className={`plCard ${props.classNames}`}>
     {props.children}
   </div>
 );
 
 Card.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  classNames: PropTypes.string
 }
 
 export default Card;

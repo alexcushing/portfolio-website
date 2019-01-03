@@ -1,6 +1,8 @@
 .plNav {
-  display: inline-block;
-  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  width: calc(100% - 48px);
   padding: 20px;
   box-sizing: border-box;
 }
@@ -9,7 +11,10 @@
   text-decoration: none;
   color: #626161;
   padding: 10px 20px;
-  display:
+}
+
+.plNav-link:first-child {
+  padding-left: 0;
 }
 
 .plNav-link--active {
@@ -21,7 +26,4 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }

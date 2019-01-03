@@ -23,9 +23,10 @@ class App extends Component {
               isSubtitle
             />
           </div>
-          <Center>
+          <Center classNames='App-images'>
             <Center inline row={false}>
               <img
+                className='App-image'
                 alt=""
                 style={{
                   backgroundImage:

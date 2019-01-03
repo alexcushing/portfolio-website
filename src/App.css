@@ -4,6 +4,7 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     color: #626161;
+    overflow: hidden;
 }
 
 .App {
@@ -29,4 +30,18 @@ body {
   display: flex;
   padding: 32px 0;
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-images {
+    flex-direction: column !important;
+  }
+  .App-images > .plCenter {
+    align-items: center !important;
+    padding: 10px;
+  }
+  .App-image {
+    width: 200px !important;
+    height: 200px !important;
+  }
 }

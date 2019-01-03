@@ -6,7 +6,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Projects from './Projects';
 import Nav from './Components/Nav';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 

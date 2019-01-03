@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const Center = props => (
   <div
-    className={props.animated ? 'plCenter animated-fadeInUp-fast' : 'plCenter'}
+    className={props.animated ? `plCenter animated-fadeInUp-fast ${props.classNames}` : `plCenter ${props.classNames}`}
     style={{
       display: props.inline ? 'inline-flex' : 'flex',
       flexDirection: props.row ? 'row' : 'column',
@@ -26,7 +26,8 @@ Center.propTypes = {
   right: PropTypes.bool,
   animated: PropTypes.bool,
   borderColor: PropTypes.string,
-  bordered: PropTypes.bool
+  bordered: PropTypes.bool,
+  classNames: PropTypes.string
 };
 
 Center.defaultProps = {
@@ -36,7 +37,8 @@ Center.defaultProps = {
   right: false,
   animated: true,
   borderColor: '',
-  bordered: false
+  bordered: false,
+  classNames: ''
 }
 
 
