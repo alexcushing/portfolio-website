@@ -4,7 +4,7 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     color: #626161;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .App {
